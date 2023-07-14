@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flex and Details</title>
+    
+    <style>
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+       .box{
+        background-color: rgb(182, 128, 232);
+        padding: 20px;
+        border-radius: 20px;
+       }
+       .container2{
+       display: flex;
+       flex: wrap;
+       gap: 10px;
+       margin-top: 5px;
+     
+       }
+       .item{
+        width: 200px;
+        height: 100px;
+        background-color: rgb(244, 124, 124);
+        border: 2px solid to tomato;
+       }
+       @media screen and (max-width:576px) {
+        .container{
+            flex-direction: column;
+        }    
+        .container2{
+            flex-direction: column;
+        }     
+       }
+    </style> 
+
+
+</head>
+<body>
+    <h2> Flexible Flex</h2>
+    <div class="container">
+    <div class="box">
+      <h3>First Box</h3>
+      <p>Web development is a rapidly evolving field that plays a crucial role in shaping the digital landscape. It involves the creation and maintenance of websites and web applications, utilizing a combination of programming languages, frameworks, and tools. As technology continues to advance, the future of web development holds tremendous potential and exciting possibilities.the future of web development looks promising and dynamic, driven by technological advancements and changing user expectations. Web developers will need to stay updated with the latest trends, tools, and frameworks to build immersive experiences, ensure security and privacy, and cater to a diverse range of devices and users. By embracing emerging technologies and adopting best practices, web development will continue to shape the digital world in innovative ways.</p>
+    </div>
+
+    <div class="box">
+      <h3>Second Box</h3>
+      <P>Progressive Web Applications (PWAs): PWAs are web applications that offer a native app-like experience to users. They are fast, reliable, and provide offline capabilities. PWAs are expected to gain more prominence in the future as they bridge the gap between web and mobile applications, providing a seamless user experience across different devices.</P>
+    </div>
+
+    <div class="box">
+      <h3>Third Box</h3>
+      <p>Responsive and Mobile-First Design: With the increasing usage of mobile devices, responsive and mobile-first design has become essential. Web developers will continue to focus on creating websites and applications that adapt and provide optimal user experiences on various screen sizes and resolutions.</p>
+    </div>
+
+    <div class="box">
+      <h3>Fourth Box</h3>
+      <p>Artificial Intelligence (AI) Integration: AI technologies, such as machine learning and natural language processing, are being integrated into web development to enhance user experiences. AI-powered chatbots, voice assistants, and personalized content recommendations are just a few examples. In the future, AI will likely play an even more significant role in automating tasks, analyzing user data, and making intelligent decisions.</p>
+    </div>
+
+    <div class="box">
+      <h3>Fifth Box</h3>
+      <p>Internet of Things (IoT) Integration: As more devices become connected to the internet, web developers will need to adapt and create applications that interact with IoT devices. This could involve building web interfaces for controlling smart homes, integrating data from wearable devices, or developing web-based monitoring systems for industrial IoT applications.</p>
+    </div>
+
+    </div>
+   
+    <div class="container2">
+
+       <div class="item">item - 1</div>
+       <div class="item">item - 2</div>
+       <div class="item">item - 3</div>
+       <div class="item">item - 4</div>
+       <div class="item">item - 5</div>
+       <div class="item">item - 6</div>
+       <div class="item">item - 7</div>
+       <div class="item">item - 8</div>
+       <div class="item">item - 9</div>
+       <div class="item">item - 10</div>
+
+
+
+    </div>
+
+</body>
+</html>
